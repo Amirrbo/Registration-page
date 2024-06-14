@@ -1,0 +1,60 @@
+@font-face {
+    font-family: Anjoman;
+    src: url(../fonts/Anjoman-Light.woff);
+}
+body{
+    font-family: Anjoman;
+    background-color: #def2ff;
+}
+img{
+    width: 80px;
+    border-radius: 100vh;
+    margin-top: 20px;
+}
+form{
+    text-align: center;
+    margin: 0 auto;
+    background-color: #fafafa;
+    width: 350px; height: 500px;
+    border-radius: 25px;
+    margin-top: 100px;
+    box-shadow: 0px 3px 10px 0px #0000001f;
+}
+.input{
+    padding: 12px;
+    width: 275px;
+    border: 1px solid #c7c7c7;
+    border-radius: 5px;
+    font-family: Anjoman;
+    background-color: #f7f7f7;
+    direction: ltr;
+    text-align: right;
+}
+.input:focus{
+    background-color: #eff9ff;
+    outline-color: #03A9F4;
+}
+div{
+    padding: 8px;
+}
+.submit{
+    width: 304px;
+    padding: 5px;
+    background-color: #03A9F4;
+    border-radius: 5px;
+    border: 1px solid #fff;
+    font-family: Anjoman;
+    color: #fff;
+    font-size: 18px;
+    margin-top: 10px;
+}
+.submit:hover{
+    background-color: #0087d1;
+}
+a{
+    color: #0087d1;
+    text-decoration: none;
+}
+a:hover{
+    color: #000;
+}
